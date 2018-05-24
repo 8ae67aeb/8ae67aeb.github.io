@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <title>NES Online</title>
+</head>
+<body>
+  <x-app></x-app>
+  <script>window.module = {};</script>
+  <!--script(src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js")-->
+  <script src="webcomponents-lite.js"></script>
+  <script src="custom-elements-es5-adapter.js"></script>
+  <script src="Photon-Javascript_SDK.min.js"></script>
+  <!--script.
+  var config = {
+      apiKey: "AIzaSyCxjtuOKoKqriOKomS7pP7-1mn7TydJz_s",
+      authDomain: "nes-online-app.firebaseapp.com",
+      databaseURL: "https://nes-online-app.firebaseio.com",
+      projectId: "nes-online-app",
+      storageBucket: "nes-online-app.appspot.com",
+      messagingSenderId: "642694346319"
+  };
+  firebase.initializeApp(config);
+  -->
+  <link rel="import" href="app-component.html">
+  <link rel="import" href="common/route-link/route-link.html">
+  <link rel="import" href="home/home.html">
+  <link rel="import" href="home/home-filter/home-filter.html">
+  <link rel="import" href="home/home-game-list-item/home-game-list-item.html">
+  <link rel="import" href="game/game.html">
+  <link rel="import" href="game/game-multiplayer/game-multiplayer-room-list/game-multiplayer-room-list.html">
+  <link rel="import" href="game/screen/screen.html">
+<script type="text/javascript" src="app.js"></script></body>
